@@ -1,0 +1,7 @@
+curl -X POST -H "Content-Type: application/json" -H "Authorization: AeqtynufwYL6r9u:OatZKZqdudFz8cM" -d '{"username":"abc","password":"abc"}' http://192.168.0.131/cargps/api/gpsapi/engine
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: AeqtynufwYL6r9u:OatZKZqdudFz8cM" -d '{"engine":"s"}' http://192.168.0.131/cargps/api/gpsapi/engine
+curl -X POST -H "Content-Type: application/json" -H "Authorization: AeqtynufwYL6r9u:OatZKZqdudFz8cM" -d '{"engine":"d"}' http://192.168.0.131/cargps/api/gpsapi/engine
+curl -X POST -H "Content-Type: application/json" -H "Authorization: AeqtynufwYL6r9u:OatZKZqdudFz8cM" -d '{"battery":"100%"}' http://192.168.0.131/cargps/api/gpsapi/batterystatus
+curl -X POST -H "Content-Type: application/json" -H "Authorization: AeqtynufwYL6r9u:OatZKZqdudFz8cM" -d '{"cur_datetime":"2020-04-23 14:50:01","type":"info","latitude":"11","longitude":"22","altitude":"33","speed":"44","heading":"55","climb":"66","status":"77"}' http://192.168.0.131/cargps/api/gpsapi/gpsinfo
+

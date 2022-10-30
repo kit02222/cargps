@@ -1,0 +1,6 @@
+[root@localhost svn]# chcon -t httpd_sys_content_rw_t /svn/magian/writable
+[root@localhost svn]# chcon -R -t httpd_sys_content_rw_t /svn/magian/writable/cache/
+[root@localhost svn]# chcon -R -t httpd_sys_content_rw_t /svn/magian/writable/debugbar/
+[root@localhost svn]# chcon -R -t httpd_sys_content_rw_t /svn/magian/writable/logs/
+[root@localhost svn]# chcon -R -t httpd_sys_content_rw_t /svn/magian/writable/session/
+[root@localhost svn]# chcon -R -t httpd_sys_content_rw_t /svn/magian/writable/uploads/

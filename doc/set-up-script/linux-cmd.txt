@@ -1,0 +1,2 @@
+chown -R apache writable
+chmod -R 775 writable
